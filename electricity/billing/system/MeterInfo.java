@@ -66,7 +66,6 @@ implements ActionListener {
         this.meterlocation.add("Outside");
         this.meterlocation.add("Inside");
         this.meterlocation.setBounds(240, 120, 200, 20);
-        this.meterlocation.setForeground(Color.WHITE);
         p.add(this.meterlocation);
         JLabel lbladdress = new JLabel("Meter Type");
         lbladdress.setBounds(100, 160, 100, 20);
@@ -77,7 +76,6 @@ implements ActionListener {
         this.metertype.add("Solar Meter");
         this.metertype.add("Smart Meter");
         this.metertype.setBounds(240, 160, 200, 20);
-        this.metertype.setForeground(Color.WHITE);
         p.add(this.metertype);
         JLabel lblcity = new JLabel("Phase Code");
         lblcity.setBounds(100, 200, 100, 20);
@@ -94,7 +92,6 @@ implements ActionListener {
         this.phasecode.add("088");
         this.phasecode.add("099");
         this.phasecode.setBounds(240, 200, 200, 20);
-        this.phasecode.setForeground(Color.WHITE);
         p.add(this.phasecode);
         JLabel lblstate = new JLabel("Bill Type");
         lblstate.setBounds(100, 240, 100, 20);
@@ -104,7 +101,6 @@ implements ActionListener {
         this.billtype.add("Normal");
         this.billtype.add("Industrial");
         this.billtype.setBounds(240, 240, 200, 20);
-        this.billtype.setForeground(Color.WHITE);
         p.add(this.billtype);
         JLabel lblemail = new JLabel("Days");
         lblemail.setBounds(100, 280, 100, 20);

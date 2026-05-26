@@ -49,7 +49,6 @@ implements ActionListener {
         this.cmonth.add("October");
         this.cmonth.add("November");
         this.cmonth.add("December");
-        this.cmonth.setForeground(Color.white);
         this.area = new JTextArea(50, 15);
         this.area.setText("\n\n\t--------Click on the---------\n\t Generate Bill Button to get\n\tthe bill of the Selected Month");
         this.area.setFont(new Font("Senserif", 2, 18));

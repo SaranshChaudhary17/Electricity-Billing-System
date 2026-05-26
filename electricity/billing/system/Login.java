@@ -60,7 +60,6 @@ implements ActionListener {
         this.logginin.add("Admin");
         this.logginin.add("Customer");
         this.logginin.setBounds(400, 100, 150, 20);
-        this.logginin.setForeground(Color.WHITE);
         this.add(this.logginin);
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/login.png"));
         Image i2 = i1.getImage().getScaledInstance(16, 16, 1);
